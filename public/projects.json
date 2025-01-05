@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"name": "Chill Gamer",
+		"image": "https://i.ibb.co.com/7gqbb56/logo2.jpg",
+		"description": "Chill Gamer is an intuitive platform for game enthusiasts to explore, share, and engage with game reviews. The platform offers a clean design and a user-friendly interface, making it easy for users to navigate through different game reviews and build their personalized watchlists.",
+		"technologies": [
+			"React",
+			"Tailwind CSS",
+			"Node.js",
+			"Express.js",
+			"MongoDB",
+			"Firebase"
+		],
+		"liveLink": "https://chill-gamer-live.com",
+		"githubLink": "https://github.com/your-repo/chill-gamer",
+		"challenges": "One of the main challenges was implementing an efficient sorting and filtering system for games based on ratings, year, and genres. Ensuring the backend and frontend communication for dynamic updates required careful handling.",
+		"improvements": "There are plans to integrate an AI-based recommendation system that will suggest games based on user preferences and past reviews. Additionally, enhancing the user experience by introducing multi-language support is also on the roadmap."
+	},
+	{
+		"id": 2,
+		"name": "Discount PRO",
+		"image": "https://i.ibb.co.com/1nKX7ts/Red-Yellow-Minimalist-Shopping-Coupon.jpg",
+		"description": "Discount PRO is a smart coupon-collecting application designed to help users find and manage discount coupons for various e-commerce shops in Bangladesh. The application aggregates coupons from multiple brands and presents them in an organized, user-friendly interface.",
+		"technologies": ["React", "Tailwind CSS", "Firebase"],
+		"liveLink": "https://discount-pro-live.com",
+		"githubLink": "https://github.com/your-repo/discount-pro",
+		"challenges": "Managing expired coupons dynamically posed a significant challenge. It required designing an automated system to check coupon expiration dates and update the interface accordingly without manual intervention.",
+		"improvements": "Future updates include adding a notification system that will alert users about coupons nearing expiration and integrating AI to recommend the best coupons based on shopping trends and user preferences."
+	},
+	{
+		"id": 3,
+		"name": "Volunteer Management",
+		"image": "https://i.ibb.co.com/xYPLB2K/logo.png",
+		"description": "The Volunteer Management platform is designed to connect individuals with volunteer opportunities. It allows users to create posts for volunteer needs and join others' posts as volunteers. The platform promotes collaboration and makes volunteer management more organized and efficient.",
+		"technologies": ["HTML", "CSS", "JavaScript", "Node.js (Optional)"],
+		"liveLink": "https://volunteer-management-live.com",
+		"githubLink": "https://github.com/your-repo/volunteer-management",
+		"challenges": "Optimizing the process for recording volunteer details while ensuring data integrity was a complex task. Additionally, implementing an intuitive user interface for post creation and management required iterative feedback and improvements.",
+		"improvements": "Future plans include adding an email notification system for volunteers to receive updates about posts they join and creating a dashboard for post owners to track volunteer activity more effectively."
+	}
+]
