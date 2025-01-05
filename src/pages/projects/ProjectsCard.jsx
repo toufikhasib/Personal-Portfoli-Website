@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const ProjectsCard = () => {
 	const [project, setProject] = useState([]);
@@ -27,7 +28,9 @@ const ProjectsCard = () => {
 								: card.description}
 						</p>
 						<div className='card-actions justify-start'>
-							<button className='btn btn-primary'>View Details</button>
+							<Link to={`projectsDetails/${card.id}`}>
+								<button className='btn btn-primary'>View Details</button>
+							</Link>
 						</div>
 					</div>
 				</div>

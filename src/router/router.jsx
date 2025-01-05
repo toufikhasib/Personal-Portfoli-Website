@@ -3,6 +3,7 @@ import MainLayouts from "../layouts/MainLayouts";
 import Home from "../pages/home/Home";
 import About from "../pages/about/About";
 import Skills from "../pages/skills/Skills";
+import ProjectsCardDetails from "../pages/projects/ProjectsCardDetails";
 
 const router = createBrowserRouter([
 	{
@@ -21,6 +22,15 @@ const router = createBrowserRouter([
 			{
 				path: "/skills",
 				element: <Skills></Skills>,
+			},
+			{
+				path: "/projectsDetails/:id",
+				element: <ProjectsCardDetails></ProjectsCardDetails>,
+				loader: async ({ params }) => {
+					const response = await fetch("projects.json");
+					const projects = await response.json();
+					return projects.find((project) => project.id === parseInt(params.id));
+				},
 			},
 		],
 	},
